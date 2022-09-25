@@ -4,7 +4,7 @@
 
 * В ходе выполнения были разработаны 2 макета приложения "Meditate" - главное окно и окно плеера, а также макет подкаста для модели телефона iPhone 13 mini.
 
-#Вид первого окна приложения Meditate.
+-Вид первого окна приложения Meditate.
 
 <img src="https://user-images.githubusercontent.com/78185292/192153261-d7a0013c-b12b-451e-adfd-6ded744ff96f.png" 
      width="390" height="844">
