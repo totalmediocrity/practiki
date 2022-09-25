@@ -19,7 +19,7 @@
 2. Вид второго окна приложения Meditate.
 
 <img src="https://user-images.githubusercontent.com/78185292/192151836-66410b88-9b5b-4e00-8f83-c8e58c3c2561.png" 
-     width="466" height="1000">
+     width="390" height="844">
 
 В реализации окна, помимо вышеперечисленных виджетов, использовались: 
 *Stack;
