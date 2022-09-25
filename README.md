@@ -28,7 +28,8 @@
 
 3. Вид окна для iPhone 13 mini.
 
-<img src="https://user-images.githubusercontent.com/78185292/192151859-67abdb73-c9a7-4f71-a7d2-21e1ebc1c113.png"width="150" height="280">
+<img src="https://user-images.githubusercontent.com/78185292/192151859-67abdb73-c9a7-4f71-a7d2-21e1ebc1c113.png" 
+     width="150" height="280">
 
 В реализации окна использовались виджеты: 
 *Positioned;
