@@ -9,9 +9,9 @@
 <img src="https://user-images.githubusercontent.com/78185292/192153261-d7a0013c-b12b-451e-adfd-6ded744ff96f.png" 
      width="390" height="844">
 
--В реализации окна использовались виджеты: 
- -Column;
- -Padding;
+- В реализации окна использовались виджеты: 
+ - Column;
+ - Padding;
        -Container;
        -Image;
        -RaisedButton;
@@ -23,10 +23,10 @@
      width="390" height="844">
 
 В реализации окна, помимо вышеперечисленных виджетов, использовались: 
-*Stack;
-*Row;
-*Expanded;
-*SizedBox;
+* Stack;
+* Row;
+* Expanded;
+* SizedBox;
 
 3. Вид окна для iPhone 13 mini.
 
@@ -34,8 +34,8 @@
      width="466" height="1000">
 
 В реализации окна использовались виджеты: 
-*Positioned;
-*ElevatedButton;
+* Positioned;
+* ElevatedButton;
 А также все вышеперчеисленные виджеты, участвующие в макетах 1 и 2.
 
-*Вывод: в ходе практической работы были применены занния dart на практике, реализованы три макеты из Figma. 
+* Вывод: в ходе практической работы были применены занния dart на практике, реализованы три макеты из Figma. 
