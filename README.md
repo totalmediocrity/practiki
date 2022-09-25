@@ -6,7 +6,7 @@
 
 1. Вид первого окна приложения Meditate.
 
-<img src="https://user-images.githubusercontent.com/78185292/192151750-23392f9b-c462-4818-b7d2-63a0b61715e9.png" 
+<img src="https://user-images.githubusercontent.com/78185292/192153261-d7a0013c-b12b-451e-adfd-6ded744ff96f.png" 
      width="390" height="844">
 
 В реализации окна использовались виджеты: 
@@ -19,7 +19,7 @@
 
 2. Вид второго окна приложения Meditate.
 
-<img src="https://user-images.githubusercontent.com/78185292/192153213-c5c4cc44-3244-42b6-8061-4f13a48ee38b.png" 
+<img src="https://user-images.githubusercontent.com/78185292/192153315-42401dd1-5da6-4e75-b5d3-6b544f1fea60.png" 
      width="390" height="844">
 
 В реализации окна, помимо вышеперечисленных виджетов, использовались: 
