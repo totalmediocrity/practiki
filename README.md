@@ -9,13 +9,13 @@
 <img src="https://user-images.githubusercontent.com/78185292/192153261-d7a0013c-b12b-451e-adfd-6ded744ff96f.png" 
      width="390" height="844">
 
-- В реализации окна использовались виджеты: 
+ В реализации окна использовались виджеты: 
  - Column;
  - Padding;
-       -Container;
-       -Image;
-       -RaisedButton;
-       -Text;
+ - Container;
+ - Image;
+ - RaisedButton;
+ - Text;
 
 2. Вид второго окна приложения Meditate.
 
