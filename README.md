@@ -10,12 +10,12 @@
      width="390" height="844">
 
 -В реализации окна использовались виджеты: 
-     -Column;
-     -Padding;
-     -Container;
-     -Image;
-     -RaisedButton;
-     -Text;
+       -Column;
+       -Padding;
+       -Container;
+       -Image;
+       -RaisedButton;
+       -Text;
 
 2. Вид второго окна приложения Meditate.
 
