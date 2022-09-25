@@ -10,8 +10,8 @@
      width="390" height="844">
 
 -В реализации окна использовались виджеты: 
-       -Column;
-       -Padding;
+ -Column;
+ -Padding;
        -Container;
        -Image;
        -RaisedButton;
