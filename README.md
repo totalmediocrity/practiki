@@ -6,7 +6,8 @@
 
 1. Вид первого окна приложения Meditate.
 
-![image](https://user-images.githubusercontent.com/78185292/192151750-23392f9b-c462-4818-b7d2-63a0b61715e9.png)
+<img src="https://user-images.githubusercontent.com/78185292/192151750-23392f9b-c462-4818-b7d2-63a0b61715e9.png" 
+     width="390" height="844">
 
 В реализации окна использовались виджеты: 
 *Column;
