@@ -1,22 +1,21 @@
 import 'package:flutter/material.dart';
+import 'package:practiki/core/db/data_base_helper.dart';
 
-import 'screen/atlantis.dart';
-import 'screen/dreambook.dart';
-import 'screen/welcome.dart';
 
 void main() {
-  runApp(App());
+  DataBaseHelper.instance.init();
+  runApp(const App());
+ 
 }
 
 class App extends StatelessWidget {
+  const App({Key? key}) : super(key: key);
+
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Hey',
-      home: Welcome(),
-      //home: DreamPlay(),
-      //home: Atlantic(),
+      //home: Welcome(),
     );
   }
 }
