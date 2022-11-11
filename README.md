@@ -8,7 +8,7 @@
 1.Создадим Erwin модель по предметной области склад, для визуализации структуры данных:
 
 <img src="https://sun9-7.userapi.com/impg/wJCw4ONrlb-9hE6KBMk73UhEsd4yQ0gDI7M1JQ/btM05_lfJ-s.jpg?size=974x498&quality=96&sign=195d2f81a20b8355c512692681ff2600&type=album" 
-     width="450" height="450">
+     >
      
 Для каждой таблицы необходимо сделать модель и класс.
 Установим библиотеки для работы с базой данных в Visual Studio Code: 
