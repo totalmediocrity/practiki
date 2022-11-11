@@ -40,13 +40,16 @@
 <img src="https://sun9-75.userapi.com/impg/IRZJ8_fTKlRe1eH6jH2-AS6zkC11XjAd0TWkug/n78k08vJQ5w.jpg?size=509x433&quality=96&sign=613e798ce6450b98c17f48239651fa92&type=album">
 
 В папках «core\db» создается файл «data_base_helper.dart». В нем заполняются данные в таблицах базы данных, также происходят функции обновления, удаления и создания базы данных.
+
+<img src="https://sun9-67.userapi.com/impg/4LwE82Ex38t_e6a3poPf1ZqlBJ7BXGY7c6_d8Q/4vfWbXm6JKw.jpg?size=974x580&quality=96&sign=41842254d219b33a8d7a98c2ca820313&type=album">
+
 •	init - инициализация базы данных для всех платформ.
 •	onCreateTable - создание таблиц.
 •	onUpdateTable - обновление таблиц.
 •	onInitTable - заполнение таблиц данными.
 •	onDropDataBase - удаление базы данных.
 
-<img src="https://sun9-51.userapi.com/impg/JaltzbkbhYWsonpCUnqmt0MkzPoB3PcinaLd7w/cP94sNl7oNc.jpg?size=974x459&quality=96&sign=94ba84636eef670138d8b53e07846ef8&type=album">
+<img src="https://sun9-6.userapi.com/impg/nQLANdbQdBq1WnfWK8OVVY7xUdppmleh534h2A/xvzPvxAqwBc.jpg?size=1266x843&quality=96&sign=9c18aa007974291c5c4011d4f943e1c8&type=album">
 пример заполнения данных для таблиц
 
 После переходим в расширения и устанавливаем SQLite, в последствии с его помощью при запуске программы возможен просмотр созданной базы данных.
