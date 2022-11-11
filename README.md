@@ -10,6 +10,7 @@
 <img src="https://sun9-7.userapi.com/impg/wJCw4ONrlb-9hE6KBMk73UhEsd4yQ0gDI7M1JQ/btM05_lfJ-s.jpg?size=974x498&quality=96&sign=195d2f81a20b8355c512692681ff2600&type=album">
      
 Для каждой таблицы необходимо сделать модель и класс.
+
 Установим библиотеки для работы с базой данных в Visual Studio Code: 
 
 <img src="https://sun9-65.userapi.com/impg/rlkPaWSsjisCJjME97CqwmICob8AnnEBxAxi0w/rFolSNuvaeU.jpg?size=581x269&quality=96&sign=eb453c4eb986463ef697754c6a2d5451&type=album">
