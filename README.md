@@ -47,10 +47,17 @@
 
 Метод авторизации. 
 
-<img src="![image](https://user-images.githubusercontent.com/78185292/203731691-5655288b-7f92-410a-af8c-31d7d957c75e.png)
-">
+<img src="https://sun9-31.userapi.com/impg/INu-c8-y-PEWaaWqva5ldmZFi2Zqfdg1_1rTHA/ODewVmlw8vk.jpg?size=890x553&quality=96&sign=7b214594d1d262244afdf093c1a24585&type=album">
 
 По итогу, проект имеет следующий вид:
+
+<img src="https://sun9-81.userapi.com/impg/Bh_JX4aPwLsicO_qfFBy6tBFHbY2hl-Hs5pVRA/khToSQFEozY.jpg?size=1577x439&quality=96&sign=a229562b15230050ed3d2b998ccee3c8&type=album">
+
+<img src="https://sun9-85.userapi.com/impg/SHICK8wfTh0-ifKP9kUXu6multFtW9iLO4jSLA/5YY2s80mt-Y.jpg?size=1575x408&quality=96&sign=4fb2a025484e352482857627d8934109&type=album">
+
+<img src="https://sun9-42.userapi.com/impg/kPR2iMKyhUyn3ZHUiniE34FOzaG_Ik1kja50iA/cpZNhZFnfME.jpg?size=1571x369&quality=96&sign=3bb4647bc90492b8bab55c698abf0bca&type=album">
+
+<img src="https://sun9-31.userapi.com/impg/6cx4iXihjjqBYGzsHeiYjKMf17ah5RMg4ndOZA/jZms1wLBztg.jpg?size=1580x466&quality=96&sign=d4b81e127b28796cfff83754c1f7fbbd&type=album">
 
 <img src="">
 
