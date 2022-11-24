@@ -11,8 +11,8 @@ class User extends UserEntity{
   final String login;
   final String password;
   //
-  final int role_id;
-  final int dolj_id;
+  final int id_role;
+
 
   User(
       { required this.name,
@@ -21,16 +21,15 @@ class User extends UserEntity{
         required this.login,
         required this.password,
 
-        required this.role_id,
-        required this.dolj_id,  })
+        required this.id_role,
+        })
   : super(
     name : name,
     surname : surname,
     patron : patron,
     login : login,
     password : password,
-    role_id : role_id,
-    dolj_id : dolj_id,
+    id_role : id_role,
   );
 
   Map<String, dynamic> toMap() {
@@ -40,8 +39,7 @@ class User extends UserEntity{
       'patron': patron,
       'login': login,
       'password': password,
-      'role_id': role_id,
-      'dolj_id': dolj_id,
+      'id_role': id_role,
     };
   }
 
@@ -52,8 +50,8 @@ class User extends UserEntity{
       patron: json['patron'],
       login: json['login'],
       password: json['password'],
-      role_id: json['role_id'],
-      dolj_id: json['dolj_id'],
+      id_role: RoleEnum.values.firstWhere(
+        (element) => element.id == (json['id_role'] as int),).id,
     );
   }
 

@@ -4,7 +4,7 @@ import 'package:practiki/domain/entity/role_entity.dart';
 
 class Role extends RoleEntity {
 late int id;
-final String role;
+late String role;
 
 Role({
 required this.role,
@@ -12,7 +12,8 @@ required this.role,
 
 Map<String, dynamic> toMap() {
 return {
-'role': role,
+  'id': id,
+  'role': role,
 };
 }
 

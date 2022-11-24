@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:practiki/core/db/data_base_helper.dart';
+import 'package:practiki/screens/signatures.dart';
 
 
 void main() {
@@ -11,9 +12,10 @@ void main() {
 class App extends StatelessWidget {
   const App({Key? key}) : super(key: key);
 
-  @override
+ @override
   Widget build(BuildContext context) {
     return const MaterialApp(
+      home: SignIn(),
       debugShowCheckedModeBanner: false,
       //home: Welcome(),
     );

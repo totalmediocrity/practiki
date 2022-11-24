@@ -8,27 +8,27 @@ class Journal extends JournalEntity{
   late int id;
   final int cost;
   final String dOfJ;
-  final int item_id;
-  final int users_id;
+  final int id_item;
+  final int id_users;
 
   Journal(
       { required this.cost,
         required this.dOfJ,
-        required this.item_id,
-        required this.users_id, })
+        required this.id_item,
+        required this.id_users, })
       : super(
     cost : cost,
     dOfJ : dOfJ,
-    item_id : item_id,
-    users_id : users_id,
+    id_item : id_item,
+    id_users : id_users,
   );
 
   Map<String, dynamic> toMap() {
     return {
       'cost': cost,
       'dOfJ': dOfJ,
-      'item_id': item_id,
-      'users_id': users_id,
+      'id_item': id_item,
+      'id_users': id_users,
 
     };
   }
@@ -37,8 +37,8 @@ class Journal extends JournalEntity{
     return Journal(
       cost: json['cost'],
       dOfJ: json['dOfJ'],
-      item_id: json['item_id'],
-      users_id: json['users_id'],
+      id_item: json['id_item'],
+      id_users: json['id_users'],
     );
   }
 

@@ -9,31 +9,31 @@ class Iteam extends ItemEntity {
   late int id;
   final String order_item;
   final int lots;
-  final int customer_id;
-  final int country_id;
-  final int run_id;
+  final int id_customer;
+  final int id_country;
+  final int id_run;
 
   Iteam({
     required this.order_item,
     required this.lots,
-    required this.customer_id,
-    required this.country_id,
-    required this.run_id,
+    required this.id_customer,
+    required this.id_country,
+    required this.id_run,
   }) : super(
           order_item: order_item,
           lots: lots,
-          customer_id: customer_id,
-          country_id: country_id,
-          run_id: run_id,
+          id_customer: id_customer,
+          id_country: id_country,
+          id_run: id_run,
         );
 
   Map<String, dynamic> toMap() {
     return {
       'order_item': order_item,
       'lots': lots,
-      'customer_id': customer_id,
-      'country_id': country_id,
-      'run_id': run_id,
+      'id_customer': id_customer,
+      'id_country': id_country,
+      'id_run': id_run,
     };
   }
 
@@ -41,9 +41,9 @@ class Iteam extends ItemEntity {
     return Iteam(
       order_item: json['order_item'],
       lots: json['lots'],
-      customer_id: json['customer_id'],
-      country_id: json['country_id'],
-      run_id: json['run_id'],
+      id_customer: json['id_customer'],
+      id_country: json['id_country'],
+      id_run: json['id_run'],
     );
   }
 }

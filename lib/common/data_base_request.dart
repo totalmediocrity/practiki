@@ -61,7 +61,7 @@ abstract class DataBaseRequest {
 
   /// Запрос для создания таблицы Users
   static const String _createTableUsers =
-      'CREATE TABLE "$tableUsers" ("id"	INTEGER,"name" TEXT NOT NULL ,"surname" TEXT NOT NULL ,"patron" TEXT NULL,"login" TEXT NOT NULL UNIQUE,"password" TEXT NOT NULL,"role_id" INTEGER,"dolj_id" INTEGER,PRIMARY KEY("id" AUTOINCREMENT),FOREIGN KEY("role_id") REFERENCES "Role"("id"),FOREIGN KEY("dolj_id") REFERENCES "Dolj"("id") on delete cascade)';
+      'CREATE TABLE "$tableUsers" ("id"	INTEGER,"name" TEXT NOT NULL ,"surname" TEXT NOT NULL ,"patron" TEXT NULL,"login" TEXT NOT NULL UNIQUE,"password" TEXT NOT NULL,"id_role" INTEGER,"id_dolj" INTEGER,PRIMARY KEY("id" AUTOINCREMENT),FOREIGN KEY("id_role") REFERENCES "Role"("id")';
 
   /// Запрос для создания таблицы Country
   static const String _createTableCountry =
@@ -73,7 +73,7 @@ abstract class DataBaseRequest {
 
   /// Запрос для создания таблицы Run
   static const String _createTableRun =
-      'CREATE TABLE "$tableRun" ("id" INTEGER,"run_number" TEXT NOT NULL ,"provider_id" INTEGER,PRIMARY KEY("id" AUTOINCREMENT),FOREIGN KEY("provider_id") REFERENCES "Provider"("id") on delete cascade)';
+      'CREATE TABLE "$tableRun" ("id" INTEGER,"run_number" TEXT NOT NULL ,"id_provider" INTEGER,PRIMARY KEY("id" AUTOINCREMENT),FOREIGN KEY("id_provider") REFERENCES "Provider"("id") on delete cascade)';
 
   /// Запрос для создания таблицы Customer
   static const String _createTableCustomer =
@@ -81,11 +81,11 @@ abstract class DataBaseRequest {
 
   /// Запрос для создания таблицы Item
   static const String _createTableItem =
-      'CREATE TABLE "$tableItem" ("id" INTEGER,"order_item" TEXT NOT NULL UNIQUE,"lots" TEXT NOT NULL,"customer_id" INTEGER,"country_id" INTEGER,"run_id" INTEGER,PRIMARY KEY("id" AUTOINCREMENT),FOREIGN KEY("customer_id") REFERENCES "Customer"("id") on delete cascade,FOREIGN KEY("country_id") REFERENCES "Country"("id") on delete cascade,FOREIGN KEY("run_id") REFERENCES "Run"("id") on delete cascade)';
+      'CREATE TABLE "$tableItem" ("id" INTEGER,"order_item" TEXT NOT NULL UNIQUE,"lots" TEXT NOT NULL,"id_customer" INTEGER,"id_country" INTEGER,"id_run" INTEGER,PRIMARY KEY("id" AUTOINCREMENT),FOREIGN KEY("id_customer") REFERENCES "Customer"("id") on delete cascade,FOREIGN KEY("id_country") REFERENCES "Country"("id") on delete cascade,FOREIGN KEY("id_run") REFERENCES "Run"("id") on delete cascade)';
 
   /// Запрос для создания таблицы Journal
   static const String _createTableJournal =
-       'CREATE TABLE "$tableJournal" ("id" INTEGER,"cost" TEXT NOT NULL,"dOfJ" TEXT NOT NULL,"item_id" INTEGER,"users_id" INTEGER,PRIMARY KEY("id" AUTOINCREMENT),FOREIGN KEY("item_id") REFERENCES "Item"("id") on delete cascade,FOREIGN KEY("users_id") REFERENCES "Users"("id") on delete cascade)';
+       'CREATE TABLE "$tableJournal" ("id" INTEGER,"cost" TEXT NOT NULL,"dOfJ" TEXT NOT NULL,"id_item" INTEGER,"id_users" INTEGER,PRIMARY KEY("id" AUTOINCREMENT),FOREIGN KEY("id_item") REFERENCES "Item"("id") on delete cascade,FOREIGN KEY("id_users") REFERENCES "Users"("id") on delete cascade)';
 
     static String deleteTable(String table) => 'DROP TABLE $table';
 }

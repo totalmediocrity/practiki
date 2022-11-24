@@ -6,8 +6,8 @@ class UserEntity{
   final String login;
   final String password;
   //
-  final int role_id;
-  final int dolj_id;
+  final int id_role;
+//final int id_dolj;
 
   UserEntity(
 { required this.name,
@@ -16,8 +16,8 @@ class UserEntity{
   required this.login,
   required this.password,
 
-  required this.role_id,
-  required this.dolj_id,  });
+  required this.id_role,
+  });
 }
 
 //enum EngineEnum{}

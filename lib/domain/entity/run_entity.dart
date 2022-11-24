@@ -1,11 +1,11 @@
 class RunEntity{
   late int id;
   final int run_number;
-  final int provider_id;
+  final int id_provider;
 
   RunEntity(
       { required this.run_number,
-        required this.provider_id,});
+        required this.id_provider,});
 }
 
 //enum EngineEnum{}

@@ -2,17 +2,17 @@ class ItemEntity{
   late int id;
   final String order_item;
   final int lots;
-  final int customer_id;
-  final int country_id;
-  final int run_id;
+  final int id_customer;
+  final int id_country;
+  final int id_run;
 
   ItemEntity(
       { required this.order_item,
         required this.lots,
 
-        required this.customer_id,
-        required this.country_id,
-        required this.run_id,});
+        required this.id_customer,
+        required this.id_country,
+        required this.id_run,});
 }
 
 //enum EngineEnum{}
