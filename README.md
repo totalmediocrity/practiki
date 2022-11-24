@@ -59,9 +59,9 @@
 
 <img src="https://sun9-31.userapi.com/impg/6cx4iXihjjqBYGzsHeiYjKMf17ah5RMg4ndOZA/jZms1wLBztg.jpg?size=1580x466&quality=96&sign=d4b81e127b28796cfff83754c1f7fbbd&type=album">
 
-<img src="">
+<img src="https://sun9-41.userapi.com/impg/fhAaCbVSdlNwiMTMsMnlevUJzTyLxe1QYbKXuw/Efz3jZJKyeA.jpg?size=1583x593&quality=96&sign=c3f1ea021d64ca8fe3f8cf72836b7c9f&type=album">
 
-<img src="">
+<img src="https://sun9-82.userapi.com/impg/8E5S5OiukDtR54FRLoKLtC8euGx7-cSDyZTOAg/feYfhgssgjc.jpg?size=1583x640&quality=96&sign=3f7d60c31583ddf3d8dded8129bc5f65&type=album">
 
 ## Вывод: в ходе практической работы была реализована регистрация и авторизация пользователя. 
 [Вверх](#up)
