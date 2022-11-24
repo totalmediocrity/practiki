@@ -111,7 +111,7 @@ class SignUpState extends State<SignUp> {
                               );
                             } else {
                               final snackBar = const SnackBar(
-                                content: Text('Ошибка'),
+                                content: Text('Хорошая попытка. Попытай удачу где-нибудь еще'),
                               );
                               ScaffoldMessenger.of(context)
                                   .showSnackBar(snackBar);

@@ -14,12 +14,18 @@ class UserState extends State<User> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+    backgroundColor: Color.fromRGBO(47, 128, 237, 1),
       body: Container(
         child: Column(
           children: [
             const Text(
-                 "Хорошей работы, user",
-                ),
+              "Хорошей работы, user",
+              style: TextStyle(
+                color: Color.fromRGBO(255, 255, 255, 1),
+                fontSize: 20,
+                fontWeight: FontWeight.w500,
+              ),
+            ),
             ElevatedButton(
               onPressed: () {
                 Navigator.push(

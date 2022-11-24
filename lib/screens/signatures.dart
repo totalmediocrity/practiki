@@ -96,7 +96,7 @@ class SignInState extends State<SignIn> {
                       onPressed: () {
                         if (!key.currentState!.validate()) return;
                         final snackBar = SnackBar(
-                          content: Text('Ошибка'),
+                         content: Text('Хорошая попытка. Попытай удачу где-нибудь еще'),
                         );
                         var user = new AuthRepositoriImpl().signIn(
                           controllerLogin.text,

@@ -26,7 +26,7 @@ class AuthRepositoriImpl implements AuthRepositories {
       );
 
       if (user.isEmpty) {
-        return Left('Пользователя нет');
+        return const Left('Пользователя нет');
       }
 
     if (user.first['password'] !=
