@@ -1,16 +1,18 @@
-# practiki
+<a id="up"></a>
+# Практическая работа №4
 
-A new Flutter project.
+## Тема: «Создать проект с использованием Cubit»
 
-## Getting Started
+В ходе выполнения была реализована светлая и темная тема для пользователя с кликером, если светлая тема за клик прибавляет +1 если темная тема прибавляется +2. Сделан список нажатий и при какой теме это было реализовано. Все должно находиться на одном экране.
 
-This project is a starting point for a Flutter application.
+Добавим расширение Block для упрощения процесса управления состояниями в приложении:
+<img src="https://sun9-6.userapi.com/impg/Yhy5tqEl1OET-xlE6TVSNcvOHmHgyTq6PHtBGw/XDKSKIJKqUg.jpg?size=1243x281&quality=96&sign=8fca135673f6ae1fb2e1044f4afb50cf&type=album">
 
-A few resources to get you started if this is your first Flutter project:
+Установим библиотеки для работы с базой данных в Visual Studio Code: 
+<img src="">
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Приведем структуру проекта к следующему виду:
+ 
+<img src="">
+
