@@ -8,7 +8,7 @@
 Добавим расширение Block для упрощения процесса управления состояниями в приложении:
 <img src="https://sun9-6.userapi.com/impg/Yhy5tqEl1OET-xlE6TVSNcvOHmHgyTq6PHtBGw/XDKSKIJKqUg.jpg?size=1243x281&quality=96&sign=8fca135673f6ae1fb2e1044f4afb50cf&type=album">
 
-Установим библиотеки для работы с базой данных в Visual Studio Code: 
+Установим библиотеки для работы с block в Visual Studio Code: 
 
 <img src="https://sun9-85.userapi.com/impg/D3FFPzhdItocAhniMkvXQgfz7NqwmeWOAvA39g/Aj-losa1cPo.jpg?size=619x71&quality=96&sign=1fd9dfd2989804b3bd32cb343d34b92d&type=album">
 
