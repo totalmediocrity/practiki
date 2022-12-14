@@ -13,6 +13,23 @@
 
 <img src="https://sun9-6.userapi.com/impg/uSLhkVV_ohoX4Ak9WxFlanty0RvAFe8rLvKYAQ/7p0R3KkAkvw.jpg?size=354x96&quality=96&sign=c91b5d1ec1bc9b5d477b825d534191f2&type=album">
 
-Для того, чтобы задать значение в sharedPreferences используется методы «setInt» и «setString». Чтобы получить значения используется методы «getInt» и «getString»
+Чтобы задать значение в sharedPreferences используется методы «setInt» и «setString», для получения - методы «getInt» и «getString»
 
-<img src="">
+<img src="https://sun9-19.userapi.com/impg/FbD5_F0tEuMQtv_9hqs7L7q_jP_d4XUb3odIUw/OnojifOXSvE.jpg?size=844x627&quality=96&sign=37e41d9c4f9af550a53e335354a0088b&type=album">
+
+По нажатию на кнопку происходит переход на второе окно (screen) с передачей данных через параметр arguments
+
+<img src="https://sun9-77.userapi.com/impg/3BeWE6qkZ7T63maJ_ieWxlscdLWHg9JRV4CtCA/dLWXkzOtlcM.jpg?size=787x257&quality=96&sign=c9a0c9418f8fad35ea6b238d9ca22767&type=album">
+
+В файле screen.dart создается переменная count для того, для передачи данных из основного окна приложения и получении данных на окне. 
+
+<img src="https://sun9-64.userapi.com/impg/un2GId5o1z2jeoa0Ly6xi5rwKpAHfp2AkzXRUw/VBhhkzynaR0.jpg?size=1044x474&quality=96&sign=57d03421a9b291f4d85b41d04f3b8056&type=album">
+
+По итогу, проект имеет следующий вид:
+
+<img src="https://sun9-71.userapi.com/impg/S-MklZc5y5oFB66RyboVOZ2Xu8OC8k_51AIvbw/gQkQdyUkT88.jpg?size=1585x889&quality=96&sign=fe8f9c4e7b5a080884a465f63275bf18&type=album">
+
+<img src="https://vk.com/im?sel=115832553&z=photo115832553_457246031%2Fmail583615">
+
+## Вывод: в ходе практической работы были реализованы передача данных через параметр arguments и сохранение данных в SharedPrefrences, а также восстановление данных после закрытия приложения.
+[Вверх](#up)
