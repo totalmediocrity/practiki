@@ -21,7 +21,7 @@
 
 <img src="https://sun9-77.userapi.com/impg/3BeWE6qkZ7T63maJ_ieWxlscdLWHg9JRV4CtCA/dLWXkzOtlcM.jpg?size=787x257&quality=96&sign=c9a0c9418f8fad35ea6b238d9ca22767&type=album">
 
-В файле screen.dart создается переменная count для того, для передачи данных из основного окна приложения и получении данных на окне. 
+В файле screen.dart создается переменная count для того, для передачи данных из основного окна приложения и получении данных. 
 
 <img src="https://sun9-64.userapi.com/impg/un2GId5o1z2jeoa0Ly6xi5rwKpAHfp2AkzXRUw/VBhhkzynaR0.jpg?size=1044x474&quality=96&sign=57d03421a9b291f4d85b41d04f3b8056&type=album">
 
