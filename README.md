@@ -1,16 +1,18 @@
-# practiki
+<a id="up"></a>
+# Практическая работа №5
 
-A new Flutter project.
+## Тема: «Реализовать передачу данных между экранами»
 
-## Getting Started
+В ходе выполнения была реализовано приложение с SharedPreference, которое будет сохранять значения и работать с аргументами (переход между страницами).
 
-This project is a starting point for a Flutter application.
+Установим библиотеку для работы с SharedPreferences в Visual Studio Code: 
 
-A few resources to get you started if this is your first Flutter project:
+<img src="https://sun9-84.userapi.com/impg/-N8qGIara47oWp36_0OT9QzFK4JbjzJS6XcDRg/Zs8pTO_uS2k.jpg?size=741x134&quality=96&sign=16d2cc958e023607909dc0e62a7044ea&type=album">
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Приведем структуру проекта к следующему виду:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<img src="https://sun9-6.userapi.com/impg/uSLhkVV_ohoX4Ak9WxFlanty0RvAFe8rLvKYAQ/7p0R3KkAkvw.jpg?size=354x96&quality=96&sign=c91b5d1ec1bc9b5d477b825d534191f2&type=album">
+
+Для того, чтобы задать значение в sharedPreferences используется методы «setInt» и «setString». Чтобы получить значения используется методы «getInt» и «getString»
+
+<img src="">
