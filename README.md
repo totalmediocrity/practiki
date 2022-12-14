@@ -29,7 +29,7 @@
 
 <img src="https://sun9-71.userapi.com/impg/S-MklZc5y5oFB66RyboVOZ2Xu8OC8k_51AIvbw/gQkQdyUkT88.jpg?size=1585x889&quality=96&sign=fe8f9c4e7b5a080884a465f63275bf18&type=album">
 
-<img src="https://vk.com/im?sel=115832553&z=photo115832553_457246031%2Fmail583615">
+<img src="https://sun1-15.userapi.com/impg/x2EB6p7MHLoQRcdE8EpcZZhu7DRg3fhvGhKVnQ/bXCjqL-aw-M.jpg?size=1583x892&quality=96&sign=b2e0298a97cfc06342034d5d95f620e4&type=album">
 
 ## Вывод: в ходе практической работы были реализованы передача данных через параметр arguments и сохранение данных в SharedPrefrences, а также восстановление данных после закрытия приложения.
 [Вверх](#up)
